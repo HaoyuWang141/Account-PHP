@@ -1,0 +1,32 @@
+/* 表格基本样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* 表头样式 */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* 行与单元格样式 */
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 鼠标悬停行样式 */
+tr:hover {
+    background-color: #e9e9e9;
+}
+
+/* 表格行交替颜色 */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
